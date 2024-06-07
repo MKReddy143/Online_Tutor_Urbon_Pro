@@ -1,0 +1,25 @@
+.video_payer {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+}
+.video_payer_box{
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    width: fit-content;
+    margin-right: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+}
+
+.video_payer_box h2 {
+    margin-top: 0;
+}
+
+.video_payer_box video {
+    width: 100%;
+    height: auto;
+}
